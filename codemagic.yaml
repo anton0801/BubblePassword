@@ -2,7 +2,7 @@ workflows:
   sample-workflow:
     name: BubblePasswords workflow
     max_build_duration: 120
-    instance_type: mac_mini_m4
+    instance_type: mac_mini_m3
     integrations:
       app_store_connect: bubblepasswords_manager
     environment:
