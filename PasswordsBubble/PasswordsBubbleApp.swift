@@ -7,9 +7,12 @@ import FirebaseMessaging
 
 @main
 struct PasswordsBubbleApp: App {
+    
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegateApp
+    
     var body: some Scene {
         WindowGroup {
-            MainView()
+            AppLaunchView()
         }
     }
 }
